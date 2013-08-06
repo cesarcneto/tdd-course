@@ -1,4 +1,4 @@
-package br.com.atech.domain;
+package br.com.atech.tddcourse.domain;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -15,8 +15,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import br.com.atech.domain.util.DbUnitEntityManagerBasedUtilFacede;
-import br.com.atech.domain.util.EntityManagerUtil;
+import br.com.atech.tddcourse.domain.Department;
+import br.com.atech.tddcourse.domain.Employee;
+import br.com.atech.tddcourse.domain.util.DbUnitEntityManagerBasedUtilFacede;
+import br.com.atech.tddcourse.domain.util.EntityManagerUtil;
 
 public class EmployeeTest {
 

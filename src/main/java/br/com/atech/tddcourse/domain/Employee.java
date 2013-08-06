@@ -1,4 +1,4 @@
-package br.com.atech.domain;
+package br.com.atech.tddcourse.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

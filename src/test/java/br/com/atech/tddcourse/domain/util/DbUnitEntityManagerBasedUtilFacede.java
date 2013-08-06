@@ -1,4 +1,4 @@
-package br.com.atech.domain.util;
+package br.com.atech.tddcourse.domain.util;
 
 import java.io.InputStream;
 

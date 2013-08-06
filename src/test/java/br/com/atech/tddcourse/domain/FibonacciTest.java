@@ -1,9 +1,11 @@
-package br.com.atech.domain;
+package br.com.atech.tddcourse.domain;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import br.com.atech.tddcourse.domain.Fibonacci;
 
 public class FibonacciTest {
 

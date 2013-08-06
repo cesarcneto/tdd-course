@@ -9,8 +9,8 @@
 		<description>HSQLDB Persistence Unit</description>
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 
-		<class>br.com.atech.domain.Department</class>
-		<class>br.com.atech.domain.Employee</class>
+		<class>br.com.atech.tddcourse.domain.Department</class>
+		<class>br.com.atech.tddcourse.domain.Employee</class>
 
 		<exclude-unlisted-classes>false</exclude-unlisted-classes>
 
