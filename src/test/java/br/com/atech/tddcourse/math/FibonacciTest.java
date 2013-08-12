@@ -6,7 +6,6 @@ import static org.junit.Assert.assertThat;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.atech.tddcourse.domain.Fibonacci;
 
 public class FibonacciTest {
 

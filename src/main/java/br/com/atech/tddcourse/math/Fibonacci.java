@@ -1,4 +1,4 @@
-package br.com.atech.tddcourse.domain;
+package br.com.atech.tddcourse.math;
 
 public class Fibonacci {
 
