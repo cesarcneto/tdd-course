@@ -15,12 +15,10 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import br.com.atech.tddcourse.domain.Department;
-import br.com.atech.tddcourse.domain.Employee;
 import br.com.atech.tddcourse.domain.util.DbUnitEntityManagerBasedUtilFacede;
 import br.com.atech.tddcourse.domain.util.EntityManagerUtil;
 
-public class EmployeeTest {
+public class EmployeePersistenceTest {
 
 	private static EntityManagerFactory emf;
 	private static EntityManager em;
@@ -65,6 +63,13 @@ public class EmployeeTest {
 		for (final Employee next : resultList) {
 			System.out.println("next employee: " + next);
 		}
+	}
+
+	@Test
+	public void shouldGetEmployeeOrderedCorrectly() {
+
+		// http://stackoverflow.com/questions/2922879/best-way-to-unit-test-collection
+
 	}
 
 	@Test
