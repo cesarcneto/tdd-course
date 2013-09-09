@@ -15,7 +15,7 @@ public class Wallet {
 		value = newValue;
 	}
 
-	public void subtractMoney(final float debit) {
-		value -= debit;
+	public float subtractMoney(final float debit) {
+		return value -= debit;
 	}
 }

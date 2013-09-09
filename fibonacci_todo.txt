@@ -1,0 +1,5 @@
+o - Cenário 1: Fibonacci de 1 = 1
+o - Cenário 2: Fibonacci de 2 = 1
+o - Cenário 3: Fibonacci de 3 = 2
+o - Cenário 4: Fibonacci de 4 = 3
+o - Cenário 5: Fibonacci de menor que 0 = Argurmento Inválido

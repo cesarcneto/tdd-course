@@ -1,7 +1,5 @@
 TODO List: Implementação de Autonomia
 
-O - 
-
-O - 
-
-O -  
+o - Voo internacional = Autonomia >= EET  
+x - Tipo de voo VISUAL, diurno e tipo de equipamento ASA FIXA, autonomia deve ser maior ou igual a EET + 30  
+x - Tipo de voo VISUAL, noturno e tipo de equipamento ASA FIXA, autonomia deve ser maior ou igual a EET + 45  

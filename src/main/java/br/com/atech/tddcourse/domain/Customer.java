@@ -13,7 +13,12 @@ public class Customer {
 		return lastName;
 	}
 
-	public Wallet getWallet() {
-		return myWallet;
+	public float getPaymentFor(int payment) {
+		if (myWallet.getTotalMoney() > payment) {
+			return myWallet.subtractMoney(payment);
+		} else {
+			throw new IllegalStateException(
+					"Sorry Paperboy, you will need to comeback later...");
+		}
 	}
 }

@@ -35,7 +35,8 @@ public class EmployeePersistenceTest {
 		emf = EntityManagerUtil.getEntityManagerFactory();
 		em = emf.createEntityManager();
 
-		final InputStream resource = Thread.currentThread().getContextClassLoader().getResourceAsStream("test-dataset.xml");
+		final InputStream resource = Thread.currentThread().getContextClassLoader()//
+				.getResourceAsStream("test-dataset.xml");
 		dbUnitFacede = new DbUnitEntityManagerBasedUtilFacede(em, resource);
 	}
 

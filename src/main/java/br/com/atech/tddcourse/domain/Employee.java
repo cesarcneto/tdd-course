@@ -8,7 +8,8 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 
 @Entity
-@NamedQueries({ @NamedQuery(name = "Employee.listOrderByNameDesc", query = "SELECT e FROM Employee e ORDER BY e.name DESC") })
+@NamedQueries({ @NamedQuery(name = "Employee.listOrderByNameDesc", //
+query = "SELECT e FROM Employee e ORDER BY e.name DESC") })
 public class Employee {
 
 	@Id
@@ -58,7 +59,8 @@ public class Employee {
 
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", name=" + name + ", department=" + department.getName() + "]";
+		return "Employee [id=" + id + ", name=" + name + ", department="
+				+ department.getName() + "]";
 	}
 
 }
